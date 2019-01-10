@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00.GameObject">
+      <UniqueIdentifier>{9ec5ca3b-3bdb-41ed-a118-bcd701ab6a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameScene">
+      <UniqueIdentifier>{5b81da73-6af8-4f69-bc79-23eb13bbda7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameScene\EntryPoint">
+      <UniqueIdentifier>{fdfbfed4-ae5e-4545-b80b-518ae4300c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Header">
+      <UniqueIdentifier>{bab1c943-6883-46ee-a3e6-2286204bb568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99.Manager">
+      <UniqueIdentifier>{0df2c5f7-4227-4b9d-9c15-176ee3b4dd18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99.Manager\SceneMgr">
+      <UniqueIdentifier>{5af28ef3-b085-4cbf-b30a-e1969597986c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameScene\Logo">
+      <UniqueIdentifier>{fc5f2ebc-4630-4be6-8685-af4fc11a6be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.GameObject\Items">
+      <UniqueIdentifier>{4cad8152-574e-4c53-aba0-043ca260948c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.GameObject\Items\InGameItems">
+      <UniqueIdentifier>{fd16132f-c198-4a12-bf2f-9494f39a1c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99.Manager\ObjectPool">
+      <UniqueIdentifier>{1fb85e9b-e0bb-4d43-87d1-61a577138b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99.Manager\Cursor">
+      <UniqueIdentifier>{ebab4033-a7e1-4035-868e-4d09d6082c6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스 파일\01.GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryScene.h">
+      <Filter>소스 파일\01.GameScene\EntryPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>소스 파일\99.Manager\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>소스 파일\01.GameScene\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>소스 파일\00.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameItems.h">
+      <Filter>소스 파일\00.GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameItems.h">
+      <Filter>소스 파일\00.GameObject\Items\InGameItems</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>소스 파일\99.Manager\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>소스 파일\99.Manager\Cursor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WAP_9.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\01.GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryScene.cpp">
+      <Filter>소스 파일\01.GameScene\EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>소스 파일\99.Manager\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>소스 파일\01.GameScene\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>소스 파일\00.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameItems.cpp">
+      <Filter>소스 파일\00.GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameItems.cpp">
+      <Filter>소스 파일\00.GameObject\Items\InGameItems</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>소스 파일\99.Manager\ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>소스 파일\99.Manager\Cursor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
